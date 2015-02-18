@@ -1,0 +1,2 @@
+# OSPA3
+course project of operating system, implemented the core part of a file system. This project implements a file system like Unix.  I added some methods to support Indirect Block seeking( Single, Double and Triple). Including newDataBLcok (get the data block), getPageBLock ( get the page block that stores pointers that points at data block or next level page block) and getIndirectBlock (like a monitor). The methods’ instruction were added in the code.
